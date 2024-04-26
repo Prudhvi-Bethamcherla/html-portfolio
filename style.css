@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    background-color: #161616;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    
+    color: beige;
+    align-self: center;
+    word-wrap: break-word;
+}
+
+li, p {
+    color: beige;
+}
+
+a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e50914;
+}
+
+footer {
+    padding: 1rem 0
+}
+
+button {
+    background-color: antiquewhite;
+}
+
+.animelist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    list-style-type: none;
+}
+
+.Asuras {
+    list-style-type: none;
+}
